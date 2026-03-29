@@ -4,7 +4,10 @@ from math import gcd, pi, sin, cos, atan, log, sqrt
 import csv
 from dataclasses import dataclass, asdict
 import numpy as np
-import femm
+try:
+    import femm
+except ImportError:
+    femm = None
 
 MU0 = 4e-7 * math.pi
 

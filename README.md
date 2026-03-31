@@ -88,7 +88,7 @@ Ejecutar todas las celdas en orden. Esto:
 - Ejecuta los barridos de torque por FEA.
 - Produce los archivos CSV con los resultados.
 
-> **Nota:** Este paso requiere un entorno Windows con FEMM instalado y puede llevar varias horas, dependiendo del número de muestras (`N_SAMPLES`).
+> **Nota:** Este paso requiere un entorno con FEMM instalado y puede llevar varias horas, dependiendo del número de muestras (`N_SAMPLES`).
 
 ### Paso 2: Entrenar el modelo sustituto
 
@@ -122,7 +122,7 @@ Instalación de las dependencias Python:
 pip install torch numpy pandas matplotlib scikit-learn tqdm scipy
 ```
 
-El paquete `femm` se instala automáticamente con la instalación de FEMM 4.2 en Windows.
+El paquete `femm` se instala automáticamente con la instalación de FEMM 4.2 en Windows o el Linux (a traves de Wine).
 
 ## Referencias
 
